@@ -1,8 +1,10 @@
 Clones all repos in a gitlab installation
 
+Needs a admin account to owrk well. Did not test it with a normal account - should work as well but not clone all the repos on the server. The brutoforcing of the group ids will not beneccessary for non admin accounts think - so its quite stupid to use the script to not full clone the gitlab repos (no harm will be done but a lot 404's)
+
 Config:
 
-Your gitlab rivate token:
+Your gitlab private token:
 
 ```shell
 PRIVATE_TOKEN="InsertYourPrivateTokenHere"
