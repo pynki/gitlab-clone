@@ -4,7 +4,7 @@ Needs a admin account to work as expected (clone all the repos). Did not test it
 
 Configuration:
 
-Your gitlab private token:
+Your Gitlab private token:
 
 ```shell
 PRIVATE_TOKEN="InsertYourPrivateTokenHere"
